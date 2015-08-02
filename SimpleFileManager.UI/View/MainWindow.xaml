@@ -18,6 +18,18 @@
                     </MenuItem>
                 </Menu>
             </StackPanel>
+            <Grid ShowGridLines="True">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <ListBox x:Name="leftListBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Grid.Column="0" Width="100">
+                    <ListBoxItem Content="ListBoxItem"/>
+                    <ListBoxItem Content="ListBoxItem"/>
+                </ListBox>
+            </Grid>
+
         </DockPanel>
 
     </Grid>

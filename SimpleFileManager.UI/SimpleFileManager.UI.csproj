@@ -99,6 +99,12 @@
   <ItemGroup>
     <Folder Include="Model\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleFileManager.Model\SimpleFileManager.Model.csproj">
+      <Project>{def4a7cb-5a2f-4a9a-aad3-de302e32a1e5}</Project>
+      <Name>SimpleFileManager.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
