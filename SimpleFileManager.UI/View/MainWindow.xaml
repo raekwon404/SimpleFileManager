@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimpleFileManager.UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
+        Title="Simple File Manager" HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="298" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid ShowGridLines="True">
+        <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LastChildFill="False" >
+            <StackPanel HorizontalAlignment="Stretch" Height="18" VerticalAlignment="Top" DockPanel.Dock="Top">
+                <Menu x:Name="MainMenu">
+                    <MenuItem Header="File">
+                        <MenuItem Header="Exit" Width="140"/>
+                    </MenuItem>
+                    <MenuItem Header="Help">
+                        <MenuItem Header="About" Width="140" />
+                    </MenuItem>
+                </Menu>
+            </StackPanel>
+        </DockPanel>
 
     </Grid>
 </Window>
